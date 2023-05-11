@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        .james{
+            background: gold;
+        }
+        li{
+            background: red;
+            width: 20px;
+            padding: 3px;
+            text-align: center;
+            list-style-type: none;
+            margin: 0px 0px;
+            height: 25px;
+        
+        }
+        .son{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background: gold;
+            height: 200px;
+            padding: 0px;
+            align-items: center;
+            
+            
+
+        }
+        p{
+            overflow: auto;
+            width: 900px;
+            height: 300px;
+        }
+        .you{
+            overflow-y: hidden;
+            overflow-x: auto;
+            width: 1000px;
+            height: 200px;
+        }
+        /* grouping selector */
+        p,.son,.you{
+            background: none;
+        }
+        /* universal selector*/
+        
+        /* descendant selecctor*/
+        .me div{
+            background: purple;
+        }
+        /*child selector*/
+        .me>p{
+            background: orange;
+        }
+        .son~ul{
+            background-color: aqua;
+        }
+        .you+p{
+            background: blue;
+        }
+
+    </style>
+<body>
+    <div class="james">
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>E</li>
+        </ul>
+    </div>
+    <ul class="son">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+    <p>
+        <img src="gsquare/tee.jpg" alt="">
+    </p>
+    <div class="you">
+        <img src="gsquare/tee.jpg" alt="">
+    </div>
+    <div class="me">
+        <p>
+            ds
+        </p>
+        <div>
+            <p>
+                gjgkugig
+            </p>
+        </div>
+        <div>3</div>
+        <div2></div>
+        <div>5</div>
+        <div8></div>
+    </div>
+</body>
+</html>

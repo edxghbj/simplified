@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+    <style>
+        .email{
+            width: 335px;
+            height: 20px;
+        }
+        .address{
+            width: 335px;
+            height: 20px
+        }
+        .firstname{
+            height: 20px;
+        }
+        .lastname{
+            height: 20px;
+        }
+       body{
+        margin: 0px;
+        padding: 0px;
+       }
+       .nav{
+        background: rgb(1, 1, 121);
+        height: 70px;
+        color: white;
+        padding: 5px 0px 10px 20px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+       }
+       button{
+        color: white;
+        background: rgb(3, 3, 139);
+        box-shadow: 0px 5px 4px black;
+        border: none;
+        width: 70px;
+        height: 30px;
+        margin-right: 30px;
+       }
+       .form{
+        background: rgb(175, 175, 175);
+        width: 400px;
+        padding-left: 40px;
+        margin-top: 50px;
+        padding-bottom: 10px;
+
+       }
+       h2{
+        margin-left: 130px;
+       }
+       .me{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+       }
+       .date{
+        width: 335px;
+        height: 20px;
+        color: grey;
+       }
+    </style>
+
+</head>
+<body>
+    <div class="nav">
+        <h1>facebook</h1>
+        <button>Login</button>
+    </div>
+    <div class="me">
+        <div class="form">
+            <h2>Signup</h2>
+            <input type="text" class="firstname" placeholder="First Name">
+            <input type="text" class="lastname"placeholder="Last Name"><br><br>
+            <input type="email"class="email"placeholder="Email Address"><br><br>
+            <input type="text" class="address"placeholder="Address"><br><br>
+            <input type="date" class="date" placeholder="date of birth">
+        </div>
+    </div>    
+    <script src="gy.js"></script>
+</body>
+</html>
